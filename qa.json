@@ -1,0 +1,22 @@
+[
+  {
+    "ParameterKey": "ImageID",
+    "ParameterValue": "ami-9c0638f9"
+  }, 
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.micro"
+  },
+   {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "pavwan"
+   },
+  {
+     "ParameterKey": "SubnetId",
+    "ParameterValue": "subnet-979b76ed"
+  },
+  {
+    "ParameterKey": "InstanceSecurityGroup",
+    "ParameterValue": "sg-495b6323"
+  }
+]
