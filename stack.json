@@ -15,24 +15,24 @@
 		"KeyName": {
 			"Description": "Name of an existing EC2 KeyPair to enable SSH access to the instance",
 			"Type": "String",
-			"Default": "GOPIKRISH"
+			"Default": "credentials"
 
 		},
 		"ImageID": {
 			"Description": "Name of an existing EC2 KeyPair to enable SSH access to the instance",
 			"Type": "String",
-			"Default": "ami-9c0638f9"
+			"Default": "ami-25bd2743"
 
 		},
 		"InstanceSecurityGroup": {
 			"Description": " The IP address range that can be used to SSH to the EC2 instances",
 			"Type": "AWS::EC2::SecurityGroup::Id",
-			"Default": "sg-495b6323"
+			"Default": "sg-2d3f0467"
 		},
 		"SubnetId": {
 			"Description": " The IP address range that can be used to SSH to the EC2 instances",
 			"Type": "AWS::EC2::Subnet::Id",
-			"Default": "subnet-979b76ed"
+			"Default": "subnet-981675d2"
 		}
 
 	},
@@ -69,14 +69,14 @@
 							"sudo yum install git -y\n",
 							"sudo mkdir /root/ansible\n",
 							"cd /root/ansible\n",
-							"sudo git clone https://github.com/gopikrishna8464/Ansible_Roles.git\n",
+							"sudo git clone https://github.com/saipavwan/deployment.git",
                                                         "cd /root/ansible/Ansible_Roles/tomcat\n",
 							"sudo ansible-playbook -v site.yml\n",
 							"cd /usr/share/tomcat/bin\n",
 							"./shutdown.sh\n",
 							"./startup.sh\n",
 							"cd /usr/share/tomcat/webapps\n",
-							"wget http://18.222.223.204:8080/nexus-2.14.8-01/content/repositories/releases/org/dep/sonatype/simple_webapp/8.0/simple_webapp-8.0.war\n",
+							"wget ",
 							"cd /usr/share/tomcat/bin\n",
 							"./shutdown.sh\n",
 							"./startup.sh\n",
