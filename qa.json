@@ -1,7 +1,7 @@
 [
   {
     "ParameterKey": "ImageID",
-    "ParameterValue": "ami-9c0638f9"
+    "ParameterValue": "ami-25bd2743"
   }, 
   {
     "ParameterKey": "InstanceType",
@@ -9,14 +9,14 @@
   },
    {
     "ParameterKey": "KeyName",
-    "ParameterValue": "pavwan"
+    "ParameterValue": "credentials"
    },
   {
      "ParameterKey": "SubnetId",
-    "ParameterValue": "subnet-979b76ed"
+    "ParameterValue": "subnet-981675d2"
   },
   {
     "ParameterKey": "InstanceSecurityGroup",
-    "ParameterValue": "sg-495b6323"
+    "ParameterValue": "sg-2d3f0467"
   }
 ]
