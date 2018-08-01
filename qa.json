@@ -9,7 +9,7 @@
   },
    {
     "ParameterKey": "KeyName",
-    "ParameterValue": "ansible_formac"
+    "ParameterValue": "practice--test"
    },
   {
      "ParameterKey": "SubnetId",
