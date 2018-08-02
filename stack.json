@@ -71,7 +71,7 @@
 							"cd /root/ansible\n",
 							"sudo git clone https://github.com/saipavwan/deployment.git/n",
                                                         "cd /root/ansible/Ansible_Roles/tomcat\n",
-							"sudo ansible-playbook -y site.yml\n",
+							"sudo ansible-playbook site.yml\n",
 							"cd /usr/share/tomcat/bin\n",
 							"./shutdown.sh\n",
 							"./startup.sh\n",
